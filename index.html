@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>title</title>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+	</head>
+	<body>
+		<div id="top-bar">
+			<div id="turns" title="turns left">
+				Turns: <span id="counter">0</span>
+			</div>
+			<div class="reset" title="re-starts the game">Reset</div>
+			<div id="timer">00<span id="cheat">:</span>00</div>
+		</div>
+		
+		<div id="ship-table">
+		</div>
+		
+		<div id="winning" class="screen-overlay">
+			<div id="winning-text" class="screen-overlay-text">
+				<h2>You Won!</h2>
+				<div class="reset button" title="re-starts the game">Play again</div>
+			</div>
+		</div>
+		
+		<div id="losing" class="screen-overlay">
+			<div id="losing-text" class="screen-overlay-text">
+				<h2>You Lost...</h2>
+				<div class="reset button" title="re-starts the game">Play again</div>
+			</div>
+		</div>
+	
+</body>
+</html>
